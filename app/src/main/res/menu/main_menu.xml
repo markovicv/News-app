@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/searchId"
+        android:icon="@drawable/ic_search"
+        app:actionViewClass="android.widget.SearchView"
+        android:title="search"
+        app:showAsAction="always"
+
+        />
+
+    <item
+        android:id="@+id/actionMoreId"
+        android:title=""
+        android:icon="@drawable/ic_cloud_storage_download"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/sportsId"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_football"
+                app:showAsAction="never"
+                android:title="Sports"/>
+
+            <item
+                android:id="@+id/businessId"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_business"
+                app:showAsAction="never"
+                android:title="Business"/>
+
+            <item
+                android:id="@+id/technologyId"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_computer"
+                app:showAsAction="never"
+                android:title="Technology"/>
+
+            <item
+                android:id="@+id/healthId"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_health_care"
+                app:showAsAction="never"
+                android:title="Health"/>
+            <item
+                android:id="@+id/generalId"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_grid_world"
+                app:showAsAction="never"
+                android:title="General"/>
+
+            <item
+                android:id="@+id/backgroundId"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_coloricon"
+                app:showAsAction="never"
+                android:title="Background">
+
+                <menu>
+                    <item
+                        android:id="@+id/blueId"
+                        android:title="Blue"
+                        app:showAsAction="never"
+                        />
+                    <item
+                        android:id="@+id/redId"
+                        android:title="Red"
+                        app:showAsAction="never"
+                        />
+                    <item
+                        android:id="@+id/blackId"
+                        android:title="Black"
+                        app:showAsAction="never"
+                        />
+                    <item
+                        android:id="@+id/whiteId"
+                        android:title="white"
+                        app:showAsAction="never"
+                        />
+                    <item
+                        android:id="@+id/yellowId"
+                        android:title="Yellow"
+                        app:showAsAction="never"
+                        />
+
+
+                </menu>
+
+            </item>
+
+
+
+        </menu>
+
+
+
+
+    </item>
+
+
+
+
+</menu>
